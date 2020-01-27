@@ -24,14 +24,13 @@ export default {
 h1 {
   font-family: "Permanent Marker", cursive;
   font-size: 125px;
-  color: rgb(43, 42, 42);
-  filter: blur(0.5px) opacity(0.8);
+  color: rgb(247, 247, 247);
 }
 
 h2 {
   font-family: "Permanent Marker", cursive;
   font-size: 60px;
-  color: rgb(43, 42, 42);
+  color: rgb(243, 242, 242);
   filter: blur(0.5px) opacity(0.8);
 }
 

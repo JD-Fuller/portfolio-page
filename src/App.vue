@@ -36,8 +36,11 @@ export default {
 </script>
 <style>
 main {
-  background-image: url("./assets/gridPaper.jpg");
+  background-image: url("./assets/desk-view.jpg");
   background-size: cover;
-  filter: invert(1);
+  -webkit-filter: grayscale(4);
+  filter: grayscale(4);
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
 }
 </style>
