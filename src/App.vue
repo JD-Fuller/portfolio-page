@@ -36,11 +36,12 @@ export default {
 </script>
 <style>
 main {
-  background-image: url("./assets/desk-view.jpg");
+  background-color: rgb(47, 47, 47);
+  /* background-image: url("./assets/desk-view.jpg"); */
   background-size: cover;
-  -webkit-filter: grayscale(4);
-  filter: grayscale(4);
+  /* -webkit-filter: grayscale(4); */
+  /* filter: grayscale(4);
   -webkit-filter: brightness(0.5);
-  filter: brightness(0.5);
+  filter: brightness(0.5); */
 }
 </style>
