@@ -1,25 +1,33 @@
 <template>
-  <div class="row home">
-    <div class="col-12" style="text-align: left;">
-      <h1>I'm JD</h1>
-      <h2>
-        Designer - <span style="color: red;">Developer</span> - Storyteller
-      </h2>
-    </div>
-    <div class="col-12" style="text-align: right;">
-      <h4><span> About</span></h4>
-    </div>
-    <div class="col-12" style="text-align: right;">
-      <h4>
-        Projects
-      </h4>
-    </div>
-    <div class="col-12" style="text-align: right;">
-      <h4>
-        <span> Contact</span>
-      </h4>
-    </div>
-  </div>
+  <b-container fluid>
+    <b-row home1>
+      <div class="col-12" style="text-align: left;">
+        <h1>I'm JD</h1>
+        <h2>
+          Designer - <span style="color: red;">Developer</span> - Storyteller
+        </h2>
+      </div>
+      <div class="col-12" style="text-align: right;">
+        <h4><span> About</span></h4>
+      </div>
+      <div class="col-12" style="text-align: right;">
+        <h4>
+          Projects
+        </h4>
+      </div>
+      <div class="col-12" style="text-align: right;">
+        <h4>
+          <span> Contact</span>
+        </h4>
+      </div>
+    </b-row>
+    <b-row>
+      <b-col>card</b-col>
+      <b-col>card</b-col>
+      <b-col>card</b-col>
+      <b-col>card</b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -61,7 +69,7 @@ h4 {
 .col-12 {
   border: 1px solid red;
 }
-.row {
+b-row {
   border: 1px solid green;
 }
 </style>
